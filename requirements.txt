@@ -1,0 +1,32 @@
+# --- Streamlit App ---
+streamlit>=1.32.0
+streamlit-mic-recorder
+
+# --- Image Processing ---
+opencv-python
+Pillow
+
+# --- Deep Learning / Torch ---
+torch>=2.0.0
+torchvision>=0.15.0
+
+# --- OCR + PDF Handling ---
+pytesseract
+pdfplumber
+
+# --- Whisper Voice Input ---
+faster-whisper
+
+# --- LangChain + LLMs ---
+langchain
+langchain-community
+langchain-core
+together
+pydantic>=1.10.0,<2.0
+
+# --- Utilities ---
+numpy
+requests
+tempfile
+python-dotenv
+tqdm
